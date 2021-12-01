@@ -1,0 +1,253 @@
+body {
+    font-family: helvetica;
+    background-color: lightblue;
+    display: flex;
+    min-height: 85vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: inline;
+}
+
+h1 {
+    font-size: 90px;
+    line-height: 1;
+    margin-bottom: 0px;
+    text-align: center;
+
+}
+
+h3 {
+    font-size: 50px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: left;
+}
+
+.start-form {
+    margin: 0px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.username-field {
+    border: none;
+    border-bottom: 2px solid gray;
+    font-size: 32px;
+    text-align: center;
+    background-color: lightblue;
+    color: black;
+}
+
+.start-btn {
+    width: 15vw;
+    padding: 0px 0px;
+    border-radius: 0px;
+    background-color: transparent;
+    border: 4px solid black;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 24px;
+}
+
+.dabar {
+    top: 0;
+    left: 0;
+    color: black;
+    background-color: transparent;
+}
+
+.that-text {
+    color: black;
+    text-align: center;
+    width: 100%;
+    font-size: large;
+    font-weight: bold;
+}
+
+.that-thing {
+    width: 0%;
+    height: 100%;
+    background-color: black;
+}
+
+.start-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    height: 100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    text-align: center;
+    color: black;
+}
+
+.start-form {
+    margin: 48px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.value-container {
+    width: 400px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    border: black 5px;
+    
+}
+
+.value-bar {
+    width: 0%;
+    height: 20px;
+    background-color: transparent;
+    background: black;
+    position: absolute;
+
+}
+
+.value-bar_bg {
+    width: 149%;
+    height: 20px;
+    border: 7px solid black;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+form input {
+    margin-bottom: 16px;
+    outline: none;
+}
+
+
+.get-username{
+    font-size: 32px;
+    text-align: center;
+}
+
+.lose-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    height: 100%;
+    width:100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    display: none;
+}
+
+.win-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    height: 100%;
+    width:100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    display: none; 
+}
+
+
+.graphics-container {
+    width: 50%;
+    padding: 0px 0px 0px 0px;
+}
+
+.graphic-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.username {
+    text-align: center;
+    position: absolute;
+    top: 0;
+}
+
+
+button {
+
+    border-radius: 0px;
+    border: solid black;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    position: relative;
+
+}
+
+.button-wrap {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+@media screen {
+    main {
+        flex-direction: column;
+    }
+    .content-container {
+        padding: 64px 16px;
+        width: 80%;
+        height: 80%;
+        margin: 0 auto;
+
+    }
+    .graphics-container {
+        padding: 64px 16px;
+        width: 80%;
+        height: 80%;
+        margin: 0 auto;
+    }
+    h1 {
+        font-size: 6vw;
+    }
+    button {
+        width: 24vw;
+    
+    }
+    .username {
+        top: 0;
+    }
+}
