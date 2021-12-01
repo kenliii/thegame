@@ -33,4 +33,4 @@ Need to keep yourself healthy
 if it reaches 0 it will die 
 if it reaches 100 you win the game 
 
-if all the bars reaches 0 you will win the game 
+if all the bars reaches 100 you will win the game 
