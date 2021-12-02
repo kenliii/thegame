@@ -1,6 +1,6 @@
 # thegame
 
-this game is about you getting yourself out of the trenches.
+this game is about the player getting themself out of the trenches.
 
 
 
