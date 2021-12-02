@@ -31,6 +31,8 @@ health:
 
 Need to keep yourself healthy
 if it reaches 0 it will die 
-if it reaches 100 you win the game 
+if it reaches 100 you win the game !
+
 
 if all the bars reaches 100 you will win the game 
+<img width="739" alt="Screen Shot 2021-12-01 at 7 25 33 PM" src="https://user-images.githubusercontent.com/90875261/144352401-c0fef5a1-392b-43a4-8ac4-9af8a87b51fd.png">
